@@ -1,9 +1,11 @@
 import React from 'react';
-import './App.css';
+import './app.scss';
+import 'core/assets/styles/custom.scss';
+import Routes from './Routes';
 
 function App() {
   return (
-<h1>Hello world</h1>
+    <Routes />
     );
 }
 
